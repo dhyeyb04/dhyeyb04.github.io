@@ -6180,6 +6180,14 @@ button.bg-dark:focus {
   float: right;
 }
 
+.fltm{
+  text-align: center;
+}
+
+.resume{
+  margin-left: 3rem !important;
+}
+
 .mr-4,
 .mx-4 {
   margin-right: 1.5rem !important; }
@@ -7356,7 +7364,7 @@ a {
   color: rgb(230, 67, 67); }
   a:hover {
     text-decoration: none;
-    color: #2f89fc; }
+    color: #ffffff; }
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
