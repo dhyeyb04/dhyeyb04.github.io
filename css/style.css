@@ -62,17 +62,17 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
-
-body {
-    overflow-y: scroll;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none;  /* IE 10+ */
+  background-color: #fff;
+  overflow-y: scroll;
 }
 
-body::-webkit-scrollbar { /* WebKit */
-    width: 0;
-    height: 0;
+#style-1::-webkit-scrollbar {
+    width: 10px;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.44, rgb(230, 67, 67)), color-stop(0.86, rgb(255, 255, 255)));
 }
 
 [tabindex="-1"]:focus {
