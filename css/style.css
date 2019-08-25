@@ -69,7 +69,7 @@ body {
 #style-1::-webkit-scrollbar {
     width: 10px;
 }
-/*
+/* Changed to a solid red instead
 #style-1::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.44, rgb(230, 67, 67)), color-stop(0.86, rgb(255, 255, 255)));
