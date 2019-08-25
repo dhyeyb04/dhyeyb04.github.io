@@ -69,10 +69,15 @@ body {
 #style-1::-webkit-scrollbar {
     width: 10px;
 }
-
+/*
 #style-1::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.44, rgb(230, 67, 67)), color-stop(0.86, rgb(255, 255, 255)));
+}
+*/
+#style-1::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgb(230, 67, 67);
 }
 
 [tabindex="-1"]:focus {
@@ -6177,6 +6182,11 @@ button.bg-dark:focus {
   margin-top: 1.5rem !important; }
 
 /*Custom code below*/
+.software{
+  font-size: 25px !important;
+  margin-top: 2rem;
+}
+
 
 .fltr{
   float: right;
